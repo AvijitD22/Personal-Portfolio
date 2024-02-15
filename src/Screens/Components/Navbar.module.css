@@ -92,7 +92,6 @@ nav {
 	  align-items: center;
 	  justify-content: center;
 	  gap: 2rem;
-	  backdrop-filter: blur(20px);
 	  color: black;
 	  transition: 1s;
 	}
@@ -100,6 +99,7 @@ nav {
 	.responsive_nav {
 	  transform: translateY(100vh);
 	  transition: .8s;
+	  backdrop-filter: blur(20px) brightness(120%);
 	}
   
 	.header > h3 {
