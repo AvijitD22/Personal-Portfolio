@@ -1,0 +1,48 @@
+/* ContactForm.module.css */
+
+.formContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f8ff;
+  }
+  
+  .formContainer label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .formContainer input[type="email"],
+  .formContainer textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .formContainer textarea {
+    resize: vertical;
+  }
+  
+  .formContainer button {
+    background-color: #8A2BE2;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  .formContainer button:hover {
+    background-color: #800080;
+  }
+  
+  .formContainer button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

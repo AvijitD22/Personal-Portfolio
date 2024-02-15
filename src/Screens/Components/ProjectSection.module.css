@@ -1,0 +1,38 @@
+.project_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh !important;
+    padding: 100px 10px;
+}
+
+.project_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40vw;
+    max-width: 60vw;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1200px) {
+    .project_cards{
+        width: 75vw;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .project_cards{
+        min-width: 80vw;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .project_cards{
+        min-width: 95vw;
+        text-align: center;
+    }
+}
