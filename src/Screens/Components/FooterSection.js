@@ -28,6 +28,8 @@ const FooterSection = () => {
       <div className={styles.footer_contacts}>
         <a
           href="https://www.linkedin.com/in/avijitd22/"
+          target="_blank"
+          rel="noreferrer"
           data-aos="fade-up"
           data-aos-delay="200"
         >
@@ -35,6 +37,8 @@ const FooterSection = () => {
         </a>
         <a
           href="https://github.com/avijitd22"
+          target="_blank"
+          rel="noreferrer"
           data-aos="fade-up"
           data-aos-delay="400"
         >
@@ -49,6 +53,8 @@ const FooterSection = () => {
         </a>
         <a
           href="https://avijitd22.medium.com/"
+          target="_blank"
+          rel="noreferrer"
           data-aos="fade-up"
           data-aos-delay="800"
         >
