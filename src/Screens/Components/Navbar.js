@@ -1,9 +1,7 @@
 import { useRef } from "react";
-import { Link, useLocation } from "react-router-dom";
 import styles from "./Navbar.module.css";
 
 function Navbar() {
-  const location = useLocation();
   const navRef = useRef();
 
   const showNavbar = () => {
@@ -24,55 +22,18 @@ function Navbar() {
     >
       <h3>ΛVIJIT</h3>
       <nav ref={navRef}>
-        <Link
-          to="/"
-          onClick={closeNavbar}
-          style={{
-            color: location.pathname === "/" ? "rgb(213, 14, 213)" : "black",
-          }}
-        >
-          Home
-        </Link>
-        <Link
-          to="/about"
-          onClick={closeNavbar}
-          style={{
-            color:
-              location.pathname === "/about" ? "rgb(213, 14, 213)" : "black",
-          }}
-        >
+        <a href="#about" onClick={closeNavbar}>
           About
-        </Link>
-        <Link
-          to="/projects"
-          onClick={closeNavbar}
-          style={{
-            color:
-              location.pathname === "/projects" ? "rgb(213, 14, 213)" : "black",
-          }}
-        >
+        </a>
+        <a href="#projects" onClick={closeNavbar}>
           Projects
-        </Link>
-        <Link
-          to="/blogs"
-          onClick={closeNavbar}
-          style={{
-            color:
-              location.pathname === "/blogs" ? "rgb(213, 14, 213)" : "black",
-          }}
-        >
+        </a>
+        <a href="#blogs" onClick={closeNavbar}>
           Blogs
-        </Link>
-        <Link
-          to="/contact"
-          onClick={closeNavbar}
-          style={{
-            color:
-              location.pathname === "/contact" ? "rgb(213, 14, 213)" : "black",
-          }}
-        >
+        </a>
+        <a href="#contact" onClick={closeNavbar}>
           Contact
-        </Link>
+        </a>
         <button
           className={`${styles.nav_btn} ${styles.nav_close_btn}`}
           onClick={showNavbar}
