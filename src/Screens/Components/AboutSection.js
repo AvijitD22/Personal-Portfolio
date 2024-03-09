@@ -4,7 +4,7 @@ import about from "../Images/about_section_banner.png";
 
 const AboutSection = () => {
   return (
-    <div className={styles.about_section}>
+    <section id="about" className={styles.about_section}>
       <div data-aos="fade-right" data-aos-delay="400">
         <img src={about} alt="" className={styles.about_section_img} />
       </div>
@@ -28,7 +28,7 @@ const AboutSection = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

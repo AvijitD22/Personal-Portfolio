@@ -3,7 +3,10 @@ import styles from "./Heading.module.css";
 
 const HeadingSection = () => {
   return (
-    <div className={`${styles.heading_container} heading-font`} id="heading">
+    <section
+      className={`${styles.heading_container} heading-font`}
+      id="heading"
+    >
       <div className={styles.heading_title}>
         <h1 data-aos="fade-up-right" data-aos-delay="400">
           HEY THERE, I'M AVIJIT DAS
@@ -22,7 +25,7 @@ const HeadingSection = () => {
       >
         <span>{"</>"}</span>
       </div>
-    </div>
+    </section>
   );
 };
 

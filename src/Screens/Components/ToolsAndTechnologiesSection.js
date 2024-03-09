@@ -14,7 +14,7 @@ import docker from "../Images/docker.svg";
 
 const ToolsAndTechnologiesSection = () => {
   return (
-    <div className={styles.tools_container}>
+    <section id="tools_and_tech" className={styles.tools_container}>
       <h2 className={`heading-font`} data-aos="fade-up" data-aos-delay="300">
         Tools and Technologies
       </h2>
@@ -31,7 +31,7 @@ const ToolsAndTechnologiesSection = () => {
         <img src={linux} alt="" data-aos="fade-left" data-aos-delay="800" />
         <img src={docker} alt="" data-aos="fade-left" data-aos-delay="1000" />
       </div>
-    </div>
+    </section>
   );
 };
 

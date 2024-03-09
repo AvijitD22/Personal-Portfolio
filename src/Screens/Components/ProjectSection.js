@@ -34,7 +34,7 @@ const ProjectSection = () => {
     },
   ];
   return (
-    <div className={styles.project_container}>
+    <section id="projects" className={styles.project_container}>
       <h2 className={`heading-font`} data-aos="fade-up">
         Projects
       </h2>
@@ -51,7 +51,7 @@ const ProjectSection = () => {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 
